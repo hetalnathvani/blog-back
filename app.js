@@ -1,4 +1,4 @@
-require("./Modals/db");
+require("./Database/db");
 
 const express = require("express");
 
