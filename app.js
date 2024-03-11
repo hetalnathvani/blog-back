@@ -6,8 +6,11 @@ const tourRouter = require("./routes/tourRoutes");
 // Routes
 app.use(express.json()); // middleware
 
-const port = 3000;
+const port = 8000;
+
+// Tour module
+app.use("/api/tours", tourRouter);
+
 app.listen(port, () => {
-  console.log("app running on the port 3000, Hiiiiiiiiiiiiiiiiiiii");
-  // app.use("api/v1/tours", tourRouter);
+  console.log("app running on the port 8000 !!!");
 });
