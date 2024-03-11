@@ -1,3 +1,5 @@
+require("./Modals/db");
+
 const express = require("express");
 
 const app = express();
